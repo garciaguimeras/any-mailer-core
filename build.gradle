@@ -20,6 +20,7 @@ dependencies {
     compile 'com.sun.faces:jsf-api:2.2.5'
 	compile 'com.sun.faces:jsf-impl:2.2.5'
 	*/
+
     compile fileTree(dir: 'lib', include: '*.jar', exclude: 'jstl-1.1.0.jar')
 
     runtime fileTree(dir: 'lib', include: 'jstl-1.1.0.jar')
